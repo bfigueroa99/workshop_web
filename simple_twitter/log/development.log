@@ -799,3 +799,16 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 98ms (Views: 71.7ms | ActiveRecord: 4.4ms | Allocations: 52988)
 
 
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-06-10 12:39:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/benjafigueroag/.rvm/gems/ruby-3.0.2/gems/devise-4.9.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/benjafigueroag/.rvm/gems/ruby-3.0.2/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 1004)
+  Rendered /home/benjafigueroag/.rvm/gems/ruby-3.0.2/gems/devise-4.9.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 5916)
+  Rendered layouts/_alerts.html.erb (Duration: 1.0ms | Allocations: 250)
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 61.4ms | Allocations: 29913)
+Completed 200 OK in 93ms (Views: 68.5ms | ActiveRecord: 2.8ms | Allocations: 57985)
+
+
